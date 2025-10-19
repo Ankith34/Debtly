@@ -1,0 +1,91 @@
+body {
+  background: #f9fafb;
+  font-family: "Consolas", monospace; 
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: 400; /* Fixed - removed 'px' */
+}
+
+.container {
+  background: rgb(255, 255, 255);
+  padding: 30px;
+  border: 1px solid #333;
+  width: 400px;
+  text-align: center;
+  margin: 0 auto; 
+  margin-bottom: 50px;
+  
+}
+
+input, button {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #333;
+  font-size: 16px;
+  font-family: consolas, monospace;
+}
+
+button {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: consolas, monospace;
+  font-weight: 400; 
+}
+
+button:hover {
+  background-color: #b8b8b8;
+}
+
+.bill {
+  margin-top: 30px;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.hidden {
+  display: none;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border: 1px solid #333;
+  font-size: small;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: white;
+  padding: 10px 0;
+  font-weight: 400; 
+}
+
+.header h1 {
+  font-size: 20px;
+  font-weight: 400; 
+}
+
+.logo {
+  width: 25px;
+  height: 25px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-right: -5px;
+}
+
+.moto h1 {
+  text-align: center;
+  margin: 100px 0 30px 0;
+  color: #333;
+  font-weight: 400; 
+}
