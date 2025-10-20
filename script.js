@@ -14,10 +14,16 @@ document.getElementById('billForm').addEventListener('submit', function(e) {
 
 document.getElementById('downloadBtn').addEventListener('click', function() {
   const element = document.getElementById('bill');
+  const downloadBtn = document.getElementById('downloadBtn');
+  
+  downloadBtn.style.display = 'none';
+  
   html2canvas(element).then(canvas => {
     const link = document.createElement('a');
     link.download = 'bill.png';
     link.href = canvas.toDataURL();
     link.click();
+    
+    downloadBtn.style.display = 'block';
   });
 });
