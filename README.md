@@ -1,0 +1,140 @@
+<div align="center">
+
+<img src="assets/logo.png" alt="Debtly Logo" width="100" />
+
+# 💸 Debtly
+
+### Remember who borrowed money and how much.
+
+A lightweight, no-signup web app for generating clean, downloadable debt receipts.
+
+<br/>
+
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_App-6C5CE7?style=for-the-badge)](https://ankith34.github.io/Debtly/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](#tech-stack)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](#tech-stack)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#tech-stack)
+[![License: MIT](https://img.shields.io/badge/License-MIT-2ECC71?style=for-the-badge)](LICENSE)
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<!-- 📸 Add a screenshot or GIF of the app here for maximum impact -->
+<img src="assets/logo.png" alt="Debtly preview" width="60%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);" />
+
+</div>
+
+<br/>
+
+---
+
+## ✨ Overview
+
+**Debtly** is a minimal, static web application that lets you create and download a professional-looking debt receipt in seconds — no account, no backend, no friction.
+
+Enter a name, an amount, and a date, and Debtly generates a clean receipt you can save as an image and send to whoever owes you money. It's built for the small, everyday moment of *"I lent my friend ₹500 — I need proof of that."*
+
+---
+
+## 🚀 Features
+
+<table>
+<tr>
+<td width="50px" align="center">⚡</td>
+<td><strong>Instant Generation</strong><br/>Fill a short form and get a formatted receipt immediately</td>
+</tr>
+<tr>
+<td align="center">🖼️</td>
+<td><strong>Download as Image</strong><br/>Export the receipt as a PNG using <code>html2canvas</code></td>
+</tr>
+<tr>
+<td align="center">🔓</td>
+<td><strong>Zero Setup</strong><br/>No sign-up, no login, no database — just open and use</td>
+</tr>
+<tr>
+<td align="center">🧱</td>
+<td><strong>Fully Static</strong><br/>Pure HTML, CSS, and JavaScript — runs entirely in the browser</td>
+</tr>
+<tr>
+<td align="center">📱</td>
+<td><strong>Responsive UI</strong><br/>Works cleanly across desktop and mobile</td>
+</tr>
+</table>
+
+---
+
+## 🧭 How It Works
+
+```mermaid
+flowchart LR
+    A[📝 Enter Name, Amount & Date] --> B[⚡ Click Generate Bill]
+    B --> C[🧾 Preview Receipt]
+    C --> D[📥 Click Download Bill]
+    D --> E[🖼️ PNG Saved]
+```
+
+That's the entire flow — no accounts, no data stored, no server round-trips.
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|---|---|
+| 🏗️ Structure | HTML5 |
+| 🎨 Styling | CSS3 |
+| ⚙️ Logic | Vanilla JavaScript |
+| 📸 Image Export | [html2canvas](https://html2canvas.hertzen.com/) |
+| 🌐 Hosting | GitHub Pages |
+
+---
+
+## 📁 Project Structure
+
+```
+Debtly/
+├── assets/         # Logo and static assets
+├── index.html      # App markup and structure
+├── style.css       # Styling
+└── script.js       # Form logic and receipt generation
+```
+
+---
+
+## 💻 Running Locally
+
+No build tools or dependencies required.
+
+```bash
+git clone https://github.com/Ankith34/Debtly.git
+cd Debtly
+```
+
+Then simply open `index.html` in your browser — or serve it locally:
+
+```bash
+npx serve .
+```
+
+---
+
+## 🌍 Live Demo
+
+Debtly is live and hosted via GitHub Pages:
+
+<div align="center">
+
+### 👉 [ankith34.github.io/Debtly](https://ankith34.github.io/Debtly/) 👈
+
+</div>
+
+---
+
+<div align="center">
+
+Made with 💜 by **[Ankith](https://github.com/Ankith34)**
+
+</div>
