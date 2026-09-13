@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="assets/logo.png" alt="Debtly Logo" width="10" />
-
 # 💸 Debtly
 
 ### Remember who borrowed money and how much.
