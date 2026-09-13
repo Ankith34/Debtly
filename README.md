@@ -22,12 +22,26 @@ A lightweight, no-signup web app for generating clean, downloadable debt receipt
 
 <div align="center">
 
-<!-- 📸 Add a screenshot or GIF of the app here for maximum impact -->
-<img src="assets/logo.png" alt="Debtly preview" width="60%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);" />
+<table>
+<tr><td>
+
+### 🧾 Sample Receipt
+
+**Name:** Rahul Sharma
+**Amount:** ₹1,500
+**Date Borrowed:** 12 Sep 2026
+
+*Generated instantly · Downloaded as PNG · Zero setup*
+
+</td></tr>
+</table>
 
 </div>
 
 <br/>
+
+> [!TIP]
+> Debtly runs 100% client-side — your data never leaves your browser.
 
 ---
 
