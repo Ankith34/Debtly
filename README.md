@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/logo.png" alt="Debtly Logo" width="100" />
+<img src="assets/logo.png" alt="Debtly Logo" width="10" />
 
 # 💸 Debtly
 
